@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="NewPersistenceUnit" >
+        <class>database.InfoEntity</class>
+        <class>database.TextsEntity</class>
+        <class>database.LastCharEntity</class>
+        <class>database.DiacriticsEntity</class>
+        <class>database.PalindromesEntity</class>
+        <class>database.WordsEntity</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/database;create=true"/>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="javax.persistence.jdbc.user" value="app"/>
+            <property name="javax.persistence.jdbc.password" value="app"/>
+            <property name="toplink.jdbc.url" value="jdbc:derby://localhost:1527/database;create=true"/>
+            <property name="toplink.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="hibernate.connection.url" value="jdbc:derby://localhost:1527/database;create=true"/>
+            <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:derby://localhost:1527/database;create=true"/>
+            <property name="openjpa.ConnectionDriverName" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:derby://localhost:1527/database;create=true"/>
+            <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

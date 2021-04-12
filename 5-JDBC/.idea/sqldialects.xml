@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/database/DatabaseInit.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/DiacriticsCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/InfoCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/LastCharCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/PalindromesCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/TextsCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/database/WordsCRUD.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/index.jsp" dialect="GenericSQL" />
+  </component>
+</project>
