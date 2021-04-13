@@ -21,5 +21,5 @@ The 4th one is an WebApp. Changes include adding servlets (with doPost and doGet
 Results are being displayed only if there was no timeout of a session and it is still runnig. 
 ### 5 - JDBC
 Database support based on Apache Derby was included with the previous application.
-Entities (i.e. Diacritics, Palindromes, Words ...) and CRUD have been added for each of them.
+Entities (i.e. Diacritics, Palindromes, Words ...) and CRUD for each of them have been added.
 The application connects to the database via JDBC.
